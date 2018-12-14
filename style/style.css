@@ -1,0 +1,101 @@
+*,body{
+    box-sizing: border-box;
+    margin: 0;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: url(../img/header-background.jpg) no-repeat;
+    background-size: cover;
+    color: #ffffff;
+}
+a{
+    text-decoration:none;
+    color: #fff;
+}
+.header-main{
+width: 85.65vw;
+height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-between;
+}
+nav{
+width: 85.65vw;
+margin-top: 5.33vh;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav-logo{
+    font-size: 2.53vh;
+    color: #ffffff;
+    font-family: 'Anton', sans-serif;
+    line-height: 12px;
+}
+.nav-block{
+    display: flex;
+}
+.nav-block-item{
+font-family: "Open Sans";
+font-weight: 400;
+line-height: 12px;
+    font-size: 2.27vh;
+    padding: 0.7vh 1.47vw;
+    border: 1px solid transparent;
+}
+.nav-block-item:hover{
+    border:1px solid #fff;
+    border-radius: 17px; 
+}
+.header-main-text{
+    height: 14.8vh;
+    width: 44.3vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+h1{
+    font-size:3.07vh;
+    font-family: "Source Sans Pro";
+    font-weight: 300;
+    line-height: 70px;
+    text-transform: uppercase;
+    /* Text style for "We Are Cod" */
+    letter-spacing: 7px;
+    text-align: center;
+}
+.p-header{
+    height: 6vh;
+    font-size: 2.13vh;
+    text-align: center;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 28px;
+    /* Text style for "A, t vero" */
+    letter-spacing: 0.8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10.6vh;
+}
+.circle{
+    width: 2.64vw;
+    height: 2.64vw;
+    background:#19bd9a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle>img{
+    width: 18px;
+    height: 10.5px;
+}
